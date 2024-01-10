@@ -1,0 +1,490 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #6f6f6f;
+}
+body{
+}
+.container {
+	background-size: 100% 100%;
+}
+
+
+/* navbar kısmının sitilleri*/
+.container .navbar {
+	width: 100%;
+	height: 100px;
+	-webkit-box-shadow:rgba(100,100,100,0.8) 0px 2px 5px;
+	top: 0;
+}
+.navbar .logo {
+	display: inline-block;
+	margin-left: 160px;
+	margin-top: 30px;
+}
+.navbar .logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: helvetica, arial, sans-serif;
+}
+.navbar ul {
+	margin-top: 10px;
+	float: right;
+	margin-right: 100px;
+	justify-content: space-around;
+	padding: 10px 0;
+}  
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px;
+	line-height: 60px;
+	margin-right: 50px;
+}
+.navbar ul li a {
+	text-decoration: none;
+	font-size: 15px;
+	font-family: helvetica, arial, sans-serif;
+	padding: 6px 13px;
+}  
+.navbar ul li a.active,
+.navbar ul li a:hover {
+	background-color: rgba(50, 50, 50, 0.9);
+	border-radius: 100px;
+	transition: 500ms;
+	color: white;
+}
+
+
+/* navbarın altındaki bar kısmı sitilleri */
+.container .bar {
+	width: 100%;
+	height: 80px;
+	background-color: rgba(240,240,240,0.8);
+	top: 0;
+}
+.container .bar .konum {
+	text-decoration: none;
+	font-size: 20pt;
+	color: #333333;
+	font-family: helvetica, arial, sans-serif;
+	float: left;
+	margin-left: 150px;
+	top: 0;
+	display: inline-block;
+	margin-top: 25px;
+}
+.container .bar .konum p{
+	
+}
+.container .bar .konum2 {
+	float: right;
+	text-decoration: none;
+	font-size: 10pt;
+	color: #333333;
+	font-family: helvetica, arial, sans-serif;
+	margin-top: 35px;
+	margin-right: 150px;
+}
+
+
+/* hakkımda kısmının sitilleri*/
+.hoşgeldiniz {
+	font: bold x-large helvetica, arial, sans-serif;
+	text-align: center;
+	width: 90%;
+	max-width: 1000px;
+	margin: 75 auto;
+	line-height: 2;
+}
+.hoşgeldiniz h2{
+	font-size: xx-large;
+}
+
+
+/* hakkımda kısmının sitilleri*/
+.hakkımda {
+	font: 10pt helvetica, arial, sans-serif;
+	text-align: justify;
+	width: 90%;
+	max-width: 1000px;
+	margin: 100 auto;
+	line-height: 2;
+}
+.hakkımda h3{
+	font-size: x-large;
+}
+
+
+/* CV listesinn sitilleri*/
+.cv{
+	display: flex;
+  	align-items: first baseline;
+	font: 10pt helvetica, arial, sans-serif;
+	text-align: justify;
+	width: 90%;
+	max-width: 1000px;
+	margin: 100 auto;
+	line-height: 2;
+}
+.cv img{
+	border-radius: 500px;
+	max-width: 200px;
+  	margin-right: 50px;
+}
+.cv ul{
+	list-style: none; /* Normal nokta stilini kaldırır */
+	padding: 0;
+}
+.cv ul li::before {
+	content: " ";
+	display: inline-block; /* Pseudo-elementi blok olmaktan çıkarıp inline-block yap */
+	width: 100px; /* Belirli bir genişlik ata */
+	vertical-align: middle; /* Dikey hizalamayı ayarla */
+}
+.cv ul .a::before {
+	content: "2011-2016"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+	margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+}
+.cv ul .b::before {
+	content: "2016-2020"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+	margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+}
+.cv ul .c::before {
+	content: "2020-2022"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+	margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+}
+.cv ul .d::before {
+	content: "2023-2024"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+	margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+}
+.cv ul .e::before {
+	margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+}
+.cv ul .e a{
+	text-decoration: none;
+	font:10pt helvetica, arial, sans-serif;
+}
+.cv ul h3{
+	font-size: x-large;
+}
+.cv ul li{
+	margin:10px;
+}
+
+
+/* iletişim kısmının sitilleri*/
+.iletişim{
+	margin-top: ;
+	font: 10pt helvetica, arial, sans-serif;
+	width: 90%;
+	max-width: 1000px;
+	margin: 100 auto;
+	line-height: 2;
+}
+.iletişim ul{
+	list-style: none; /* Normal nokta stilini kaldırır */
+	padding: 0;
+}
+.iletişim ul li::before {
+	content: "•";
+	display: inline-block; /* Pseudo-elementi blok olmaktan çıkarıp inline-block yap */
+	width: 100px; /* Belirli bir genişlik ata */
+	text-align: center; /* Metni ortala */
+	margin-left: 200px;
+	margin-right: 5px;
+	vertical-align: middle; /* Dikey hizalamayı ayarla */
+}
+.iletişim ul .a1::before {
+	content: "Adres:"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+	margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+	font: bold 10pt helvetica, arial, sans-serif;
+}
+.iletişim ul .b2::before {
+	content: "E-mail:"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+	margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+	font: bold 10pt helvetica, arial, sans-serif;
+}
+.iletişim ul .c3::before {
+	content: "Telefon:"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+	margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+	font: bold 10pt helvetica, arial, sans-serif;
+}
+.iletişim ul li{
+	margin:10px;
+}
+
+
+/* alt kısımın sitilleri */
+.altkısım {
+	position: relative;
+	padding: 20px;
+}
+.altkısım::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px; /* Üst kısma gölge eklemek için kutu yüksekliği */
+	background: rgba(0, 0, 0, 0.3); /* Gölgelik rengi */
+	z-index: -1;
+	transform-origin: top;
+	transform: rotateX(10000000deg); /* Perspektif ve dönüş efekti */
+	box-shadow: 0 50px 500000px rgba(0, 0, 0, 0.8); /* Gölge efekti */
+}
+.altkısım ul{
+	text-align: center;
+	justify-content: space-around;
+	padding: 10px 0;
+}
+.altkısım ul li{
+	display: inline-block;
+	margin: 0 10px;
+}
+@media screen and (max-width: 950px) {
+	*{
+		margin: 0;
+		padding: 0;
+		color: #6f6f6f;
+	}
+	body{
+	}
+	.container {
+		background-size: 100% 100%;
+	}
+	
+	
+	/* navbar kısmının sitilleri*/
+	.container .navbar {
+		width: 100%;
+		height: 100px;
+		-webkit-box-shadow:rgba(100,100,100,0.8) 0px 2px 5px;
+		top: 0;
+	}
+	.navbar .logo {
+		display: inline-block;
+		margin-left: 5px;
+		margin-top: 30px;
+	}
+	.navbar .logo a {
+		text-decoration: none;
+		font-size: 30px;
+		font-family: helvetica, arial, sans-serif;
+	}
+	.navbar ul {
+		margin-top: 10px;
+		float: right;
+		margin-right: 5px;
+		justify-content: space-around;
+		padding: 10px 0;
+	}  
+	.navbar ul li {
+		list-style: none;
+		display: inline-block;
+		margin: 0 0px;
+		line-height: 60px;
+		margin-right: 0px;
+	}
+	.navbar ul li a {
+		text-decoration: none;
+		font-size: 15px;
+		font-family: helvetica, arial, sans-serif;
+		padding: 6px 13px;
+	}  
+	.navbar ul li a.active,
+	.navbar ul li a:hover {
+		background-color: rgba(50, 50, 50, 0.9);
+		border-radius: 100px;
+		transition: 500ms;
+		color: white;
+	}
+	
+	
+	/* navbarın altındaki bar kısmı sitilleri */
+	.container .bar {
+		width: 100%;
+		height: 80px;
+		background-color: rgba(240,240,240,0.8);
+		top: 0;
+	}
+	.container .bar .konum {
+		text-decoration: none;
+		font-size: 20pt;
+		color: #333333;
+		font-family: helvetica, arial, sans-serif;
+		float: left;
+		margin-left: 15px;
+		top: 0;
+		display: inline-block;
+		margin-top: 25px;
+	}
+	.container .bar .konum p{
+		
+	}
+	.container .bar .konum2 {
+		float: right;
+		text-decoration: none;
+		font-size: 10pt;
+		color: #333333;
+		font-family: helvetica, arial, sans-serif;
+		margin-top: 35px;
+		margin-right: 15px;
+	}
+	
+	
+	/* hakkımda kısmının sitilleri*/
+	.hoşgeldiniz {
+		font: bold x-large helvetica, arial, sans-serif;
+		text-align: center;
+		width: 90%;
+		max-width: 1000px;
+		margin: 75 auto;
+		line-height: 2;
+	}
+	.hoşgeldiniz h2{
+		font-size: xx-large;
+	}
+	
+	
+	/* hakkımda kısmının sitilleri*/
+	.hakkımda {
+		font: 10pt helvetica, arial, sans-serif;
+		text-align: justify;
+		width: 90%;
+		max-width: 1000px;
+		margin: 100 auto;
+		line-height: 2;
+	}
+	.hakkımda h3{
+		font-size: x-large;
+	}
+	
+	
+	/* CV listesinn sitilleri*/
+	.cv{
+		display: flex;
+		align-items: flex-start;
+		font: 10pt helvetica, arial, sans-serif;
+		text-align: justify;
+		width: 90%;
+		max-width: 1000px;
+		margin: 100 auto;
+		line-height: 2;
+	}
+	.cv img{
+		border-radius: 500px;
+		max-width: 0px;
+		margin-right: 50px;
+	}
+	.cv ul{
+		list-style: none; /* Normal nokta stilini kaldırır */
+		padding: 0;
+	}
+	.cv ul li::before {
+		content: "";
+		display: inline-block; /* Pseudo-elementi blok olmaktan çıkarıp inline-block yap */
+		width: 100px; /* Belirli bir genişlik ata */
+		vertical-align: middle; /* Dikey hizalamayı ayarla */
+	}
+	.cv ul .a::before {
+		content: "2011-2016"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+		margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+	}
+	.cv ul .b::before {
+		content: "2016-2020"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+		margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+	}
+	.cv ul .c::before {
+		content: "2020-2022"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+		margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+	}
+	.cv ul .d::before {
+		content: "2023-2024"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+		margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+	}
+	.cv ul .e::before {
+		margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+	}
+	.cv ul .e a{
+		text-decoration: none;
+		font:10pt helvetica, arial, sans-serif;
+	}
+	.cv ul h3{
+		font-size: x-large;
+	}
+	.cv ul li{
+		margin:10px;
+	}
+	
+	
+	/* iletişim kısmının sitilleri*/
+	.iletişim{
+		margin-top: ;
+		font: 10pt helvetica, arial, sans-serif;
+		width: 90%;
+		max-width: 1000px;
+		margin: 100 auto;
+		line-height: 2;
+	}
+	.iletişim ul{
+		list-style: none; /* Normal nokta stilini kaldırır */
+		padding: 0;
+	}
+	.iletişim ul li::before {
+		content: "•";
+		display: inline-block; /* Pseudo-elementi blok olmaktan çıkarıp inline-block yap */
+		width: 50px; /* Belirli bir genişlik ata */
+		text-align: center; /* Metni ortala */
+		margin-left: 5px;
+		margin-right: 5px;
+		vertical-align: middle; /* Dikey hizalamayı ayarla */
+	}
+	.iletişim ul .a1::before {
+		content: "Adres:"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+		margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+		font: bold 10pt helvetica, arial, sans-serif;
+	}
+	.iletişim ul .b2::before {
+		content: "E-mail:"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+		margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+		font: bold 10pt helvetica, arial, sans-serif;
+	}
+	.iletişim ul .c3::before {
+		content: "Telefon:"; /* Metin içeriği, istediğiniz metni buraya yazabilirsiniz */
+		margin-right: 50px; /* Metin ile listenin geri kalanı arasındaki boşluk */
+		font: bold 10pt helvetica, arial, sans-serif;
+	}
+	.iletişim ul li{
+		margin:10px;
+	}
+	
+	
+	/* alt kısımın sitilleri */
+	.altkısım {
+		position: relative;
+		padding: 20px;
+	}
+	.altkısım::before{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 2px; /* Üst kısma gölge eklemek için kutu yüksekliği */
+		background: rgba(0, 0, 0, 0.3); /* Gölgelik rengi */
+		z-index: -1;
+		transform-origin: top;
+		transform: rotateX(10000000deg); /* Perspektif ve dönüş efekti */
+		box-shadow: 0 50px 500000px rgba(0, 0, 0, 0.8); /* Gölge efekti */
+	}
+	.altkısım ul{
+		text-align: center;
+		justify-content: space-around;
+		padding: 10px 0;
+	}
+	.altkısım ul li{
+		display: inline-block;
+		margin: 0 10px;
+	}
+}
